@@ -1,4 +1,4 @@
-# Etiquetas EXP
+# Etiquetas REC
 
 ## Build
 Step 1: Install PyInstaller
@@ -15,5 +15,5 @@ PyInstaller --onefile --noconsole script.py
 
 ### Adding an Icon
 ```bash
-PyInstaller --onefile --windowed script.py
+PyInstaller --onefile --noconsole --icon=my_logo.ico script.py
 ```
